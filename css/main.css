@@ -49,7 +49,7 @@ main > section {
 }
 
 .btn-blue {
-    background-color: rgba(0,158,227, 0.78);
+    background-color: rgba(255, 0, 0, 1.2);
     box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
     padding: 15px 55px;
     color: #fff;
@@ -1378,4 +1378,12 @@ textarea.form-control {
     .footer-content {
         width: 380px;
     }
+}
+.color
+{
+    color:red;
+}
+.navbar-brand  .mimage
+{
+    size:5%;
 }
