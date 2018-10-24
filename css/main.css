@@ -691,7 +691,7 @@ ul.external li a:hover {
     border-radius: 50%;
     display: inline-block;
     height: auto;
-    max-width: 100px;
+    max-width: 300px;
 }
 
 .testimonial-item > div {
