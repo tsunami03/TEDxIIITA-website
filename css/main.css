@@ -463,10 +463,44 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    background-color: #009EE3;
-    color: #fff;
+    
+    /*background: url("../img/TEDx 18/image21.jpg") no-repeat scroll center center;
+    background-size: 108%;
+    background-color: rgba(0,0,200,0.3);
+    */color: #fff;
     box-shadow: 0 -5px 9px 3px rgba(0, 0, 0, 0.3);
     
+}
+
+.outeroverle{
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+    display: block;
+}
+
+#overlemargin{
+    margin-top: 120px;
+}
+
+#overle{
+
+    margin-top: 0px;
+    padding-top: 30px;
+    
+     height: 90%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    
+    padding: 0;
+    transition: opacity .5s;
+    position: absolute;
+    opacity: 0.9;
+
+    background-color: rgba(50,0,20,0.8);
+
 }
 
 #about h3 {
@@ -483,11 +517,11 @@ h1.navbar-brand {
     border: 3px solid #fff;
     border-radius: 50%;
     margin-right: 35px;
-    max-width: 100px;
+    max-width: 125px;
 }
 
 #about .message-body {
-    font-size: 13px;
+    font-size: 17px;
     line-height: 20px;
     margin-bottom: 70px;
 }
@@ -1087,6 +1121,7 @@ textarea.form-control {
 @media (min-width: 980px) and (max-width: 1150px) {
 
 /*about*/
+
     #about .welcome-block img {
         margin-bottom: 30px;
     }
