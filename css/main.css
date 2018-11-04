@@ -1429,3 +1429,12 @@ textarea.form-control {
 {
     size:5%;
 }
+
+
+#chatbot
+{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto; 
+    padding-right: auto;
+}
