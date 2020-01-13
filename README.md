@@ -1,2 +1,2 @@
-# Prototype
-This contains our project for Prototype 
+# TEDxIIITA Website
+This repo contains the website of TEDxIIITA
