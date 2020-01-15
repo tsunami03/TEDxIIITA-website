@@ -155,7 +155,7 @@
 }
 
 .bg-img-1 {
-	background-image: url(../img/1.jpg);
+	background-image: url(../img/TEDx19/bg1.jpg);
 	height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -163,7 +163,7 @@
     background-size: cover;
 }
 .bg-img-2 {
-	background-image: url(../img/TEDx19/bg1.jpg);
+	background-image: url(../img/1.jpg);
 	height: 100%;
     background-attachment: fixed;
     background-position: center;
