@@ -1,0 +1,11 @@
+.container{
+	color: white;
+}
+.service-item{
+	background-color: rgba(20,20,20,0.8);
+	border-radius: 30px;
+	padding: 20px;
+}
+h3,h2{
+	color: white;
+}

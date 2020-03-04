@@ -82,15 +82,23 @@
 
 #nav-arrows > a.sl-prev {
 	left: 50px;
+	border-color: rgba(69,69,69,0);
+	border-radius: 100px;
+}
+
+#nav-arrows > a.sl-prev:hover{
+	background-color: rgba(69,69,69,0.6);
 }
 
 #nav-arrows > a.sl-next {
 	right: 50px;
+	border-color: rgba(69,69,69,0);
+	border-radius: 100px;
 }
 
 #nav-arrows > a.sl-next:hover {
-	background-color: #009EE3;
-	border-color: #009EE3;
+	background-color: rgba(69,69,69,0.6);
+	border-color: rgba(69,69,69,0);
 	color: #fff;
 }
 
@@ -155,7 +163,7 @@
 }
 
 .bg-img-1 {
-	background-image: url(../img/TEDx19/bg1.jpg);
+	background-image: url(../img/TEDx19/tedxhero.jpg);
 	height: 100%;
     background-attachment: fixed;
     background-position: center;

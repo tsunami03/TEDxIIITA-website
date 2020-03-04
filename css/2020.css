@@ -1,0 +1,36 @@
+/*.first{
+	height: 100vh;
+}
+*/
+.reg-link{
+    color:red;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.overlay-style{
+	background-color: rgba(23,23,23,0.5);
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.but-stl{
+	background-color: rgba(69,69,69,0.6);
+	border-radius: 40px;
+}
+
+/*.but-stl:hover{
+	border-radius: 40px;
+	background-color: red;
+}*/
+
+/*.search-but{
+	background-color: rgb(230,43,30);
+}*/
+
+/*.timerr{
+	font-family: "Times New Roman";
+}*/
+
+.cooloor:hover{
+	/*background-color: rgb(230,43,30);*/
+}
