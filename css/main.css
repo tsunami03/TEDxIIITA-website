@@ -45,7 +45,7 @@ main > section {
     border-radius: 0;
     border: 0;
     position: relative;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .btn-blue {
@@ -159,7 +159,7 @@ main > section {
     margin: 0 0 30px;
     padding-bottom: 30px;
     position: relative;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .sec-title.white h2 {
@@ -285,7 +285,7 @@ h1.navbar-brand {
 .navbar-inverse .navbar-nav > li > a {
     color: #fff;
     font-size: 15px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 
@@ -351,7 +351,7 @@ h1.navbar-brand {
     font-size: 52px;
     font-weight: 400;
     margin-bottom: 25px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .caption-content > span {
@@ -491,8 +491,7 @@ h1.navbar-brand {
 
     margin-top: 0px;
     padding-top: 30px;
-    
-     /*height: 90%;*/
+     height: 88%;
     width: 100%;
     opacity: 0;
     top: 0;
@@ -510,7 +509,7 @@ h1.navbar-brand {
 #about h3 {
     color: #fff;
     margin: 0 0 35px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 #about .welcome-block h3 {
@@ -528,6 +527,7 @@ h1.navbar-brand {
     font-size: 17px;
     line-height: 20px;
     margin-bottom: 70px;
+    text-align: justify;
 }
 
 .owl-buttons {
@@ -588,7 +588,7 @@ h1.navbar-brand {
 
 .service-item h3 {
     font-size: 20px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 /*=================================================================
@@ -769,7 +769,7 @@ ul.external li a:hover {
     display: inline-block;
     font-weight: 700;
     margin: 40px 0 30px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 #testimonials .owl-controls.clickable {
@@ -803,7 +803,7 @@ ul.external li a:hover {
     display: block;
     font-size: 24px;
     padding: 30px 0;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .price-table .value {
@@ -863,7 +863,7 @@ ul.external li a:hover {
 
 .price-table ul li a {
     display: block;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .price-table.featured ul li:last-child,
@@ -967,7 +967,7 @@ textarea.form-control {
     font-weight: 700;
     margin-bottom: 15px;
     padding-bottom: 15px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .contact-details p {
@@ -1019,7 +1019,7 @@ textarea.form-control {
 
 .footer-content > div > p:first-child {
     margin-bottom: 15px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .subscribe-form {
