@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
 body {
     background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     line-height: 24px;
     font-size: 16px;
     color: #818181;
@@ -366,6 +367,52 @@ h1.navbar-brand {
     margin-bottom: 65px;
 }
 
+.timerr{
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    max-width: 700px;
+    margin: 0 auto 8%;
+    padding: 3%;
+
+    /* justify-content: space-between; */
+    /* font-size: 3rem; */
+}
+.timer-row, .timer-dhms-row{
+    display:flex;
+    /* justify-content: space-between;
+    text-align: center; */
+}
+.timer-row{
+    margin-bottom: 3%;
+}
+.timer-time, .dhms{
+    flex: 25%;
+}
+.timer-time{
+    font-size: 7rem;
+    font-weight: 600;
+}
+.dhms{
+    font-size: 2rem;
+    color: rgb(230,43,30);
+    font-weight: 600;
+}
+.timer-time-dhms{
+    text-transform: uppercase;
+}
+
+/* MEDIA QUERIES FOR TIMER */
+@media(max-width: 550px){
+    .dhms{
+        font-size: 1.5rem !important;
+    }
+    .timer-time{
+        font-size: 5rem !important;
+    }
+}
+
+
 /* The duplicate parts/slices */
 
 .sl-content-slice {
@@ -472,7 +519,6 @@ h1.navbar-brand {
     background-size: 108%;
     background-color: rgba(0,0,200,0.3);
     */color: #fff;
-    box-shadow: 0 -5px 9px 3px rgba(0, 0, 0, 0.3);
     
 }
 
@@ -491,7 +537,7 @@ h1.navbar-brand {
 
     margin-top: 0px;
     padding-top: 30px;
-     height: 88%;
+     height: 90%;
     width: 100%;
     opacity: 0;
     top: 0;
@@ -509,11 +555,12 @@ h1.navbar-brand {
 #about h3 {
     color: #fff;
     margin: 0 0 35px;
+    font-size: 3rem;
     /*text-transform: uppercase;*/
 }
 
 #about .welcome-block h3 {
-    margin: 0 0 65px;
+    margin: 0 0 35px;
 }
 
 #about .welcome-block img {
@@ -530,10 +577,13 @@ h1.navbar-brand {
     text-align: justify;
 }
 
+#works{
+    text-align: justify;
+}
+
 .owl-buttons {
-    border: 2px solid #fff;
-    display: inline-block;
-    float: right;
+    display: flex;
+    justify-content: space-around;
     padding: 1px 8px 5px;
 }
 
@@ -778,9 +828,12 @@ ul.external li a:hover {
 }
 
 #testimonials .owl-buttons {
-    border: 2px solid #fff;
-    float: inherit;
+    justify-content: space-between;
+    font-size: 3rem;
     padding-bottom: 10px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
 }
 
 #testimonials .owl-prev:hover,
