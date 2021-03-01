@@ -1,4 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+#loading{
+    position: absolute;
+    z-index: 10;
+	width: 100%;
+	height: 100vh;
+    background-color: #313131;
+    opacity: 95%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    animation: fadeout 2s ease forwards 3s;
+}
+#loadin{
+    position: absolute;
+    z-index: 10;
+	width: 100%;
+	height: 100vh;
+    animation: fadeout 1.5s ease forwards 3s;
+}
+#load{
+	width: 50%;
+	height: 50vh;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#loadtwo{
+	stroke-dasharray: 570px;
+	stroke-dashoffset: 570px;
+	fill:#FF0000;
+	fill-opacity:0;
+	animation: line-anim 2s ease forwards 1s,fadein 3s ease forwards 2s;
+}
+#loadone{
+	stroke-dasharray: 400px;
+	stroke-dashoffset: 400px;
+	fill:#FFFFFF;
+	fill-opacity:0;
+	animation: line-anim 2s ease forwards 1.3s,fadein 3s ease forwards 2s;
+
+}
+
+@keyframes line-anim{
+	to{
+		stroke-dashoffset: 0;
+	}
+}
+
+@keyframes fadein{
+	to{
+		fill-opacity:100%;
+	}
+}
+@keyframes fadeout{
+    to{
+        opacity: 0%;
+    }
+}
+@keyframes blurout{
+    to{
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+    }
+}
+/* .first{
+    position: absolute;
+} */
 body {
     background-color: #fff;
     font-family: 'Poppins', sans-serif !important;
@@ -262,6 +330,7 @@ main > section {
 /* ==========================================*/
 
 #navigation {
+    z-index: 3;
     -webkit-transition: all 0.8s ease 0s;
        -moz-transition: all 0.8s ease 0s;
         -ms-transition: all 0.8s ease 0s;
@@ -272,7 +341,9 @@ main > section {
     box-shadow: 0 5px 9px 3px rgba(0, 0, 0, 0.3);
     padding: 5px 0;
 }
-
+.cooloor{
+    z-index:2 ;
+}
 #navigation.animated-header {
     padding: 20px 0;
 }
