@@ -290,7 +290,6 @@ h1.navbar-brand {
 #nav li{
     position:relative;
   text-decoration:none;
-  display:inline-block;
 }
 #nav li a{
     padding-bottom: 0;
