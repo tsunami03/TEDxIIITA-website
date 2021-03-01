@@ -2,18 +2,18 @@
 
 #loading{
     position: absolute;
-    z-index: 10;
+    z-index: 1050;
 	width: 100%;
 	height: 100vh;
     background-color: #313131;
-    opacity: 95%;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    opacity: 98%;
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px); */
     animation: fadeout 2s ease forwards 3s;
 }
 #loadin{
     position: absolute;
-    z-index: 10;
+    z-index: 1050;
 	width: 100%;
 	height: 100vh;
     animation: fadeout 1.5s ease forwards 3s;
@@ -330,7 +330,6 @@ main > section {
 /* ==========================================*/
 
 #navigation {
-    z-index: 3;
     -webkit-transition: all 0.8s ease 0s;
        -moz-transition: all 0.8s ease 0s;
         -ms-transition: all 0.8s ease 0s;
@@ -443,6 +442,7 @@ h1.navbar-brand {
     max-width: 700px;
     margin: 0 auto 8%;
     padding: 3%;
+    user-select: none;
 
     /* justify-content: space-between; */
     /* font-size: 3rem; */
