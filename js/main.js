@@ -124,8 +124,8 @@ $(document).ready(function(){
 	/*	Menu item highlighting
 	/* ========================================================================= */
 
-	jQuery('#nav').singlePageNav({
-		offset: jQuery('#nav').outerHeight(),
+	jQuery('#nav .scroll').singlePageNav({
+		offset: jQuery('#nav .scroll').outerHeight(),
 		filter: ':not(.external)',
 		speed: 2000,
 		currentClass: 'current',

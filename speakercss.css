@@ -93,10 +93,25 @@ body {
     width: 50vh;
     height: auto;
 }
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 1080px) {
 
     .speakerimg { 
-        padding-bottom: 10%;
+        padding-top: 5%;
+        padding-bottom: 12%;
+    }
+    .ml2 .letter{
+        padding-top: 7%;
+    }
+ 
+ }
+@media only screen and (max-width: 720px) {
+
+    .speakerimg { 
+        padding-top: 10%;
+        padding-bottom: 20%;
+    }
+    .ml2 .letter{
+        padding-top: 10%;
     }
  
  }
@@ -111,7 +126,7 @@ body {
     bottom: 0;
     padding: 70px 0;
     color: #fff;
-    
+    margin-bottom: 0;
 }
 
 .footer-content {
