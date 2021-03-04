@@ -147,6 +147,7 @@ main > section {
 
 .sec-title {
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .sec-title.white {
@@ -1009,7 +1010,27 @@ ul.external li a:hover {
     color: #008ECC;
     border: 2px solid #008ECC;
 }
+@media only screen and (max-width:800px){
 
+    .social-button{
+        text-align: center;
+    }
+    .social-button li{
+        display: list-item;
+        margin: auto;
+    }
+    .social-button li:nth-child(2) {
+        margin: 20px 0;
+    }
+    .social-button li:nth-child(4) {
+        margin: 20px 0;
+    }
+    .social-container{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
 
 /*=================================================================
 	Contact
@@ -1403,7 +1424,7 @@ textarea.form-control {
     }
 
 /* follow us */
-    .social-button li:nth-child(2) {
+    /* .social-button li:nth-child(2) {
         margin: 0 25px;
     }
 
@@ -1411,7 +1432,7 @@ textarea.form-control {
         height: 65px;
         line-height: 71px;
         width: 65px;
-    }
+    } */
 
 /* contact form */
     .contact-form {
@@ -1484,7 +1505,7 @@ textarea.form-control {
     }
 
 /* social */
-    .social-button li:nth-child(2) {
+    /* .social-button li:nth-child(2) {
         margin: 0 50px;
     }
 
@@ -1492,7 +1513,7 @@ textarea.form-control {
         height: 90px;
         line-height: 96px;
         width: 90px;
-    }
+    } */
 
 /* price */
     .price-table {
