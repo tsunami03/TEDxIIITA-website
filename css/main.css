@@ -1010,7 +1010,7 @@ ul.external li a:hover {
     color: #008ECC;
     border: 2px solid #008ECC;
 }
-@media only screen and (max-width:770px){
+@media only screen and (max-width:800px){
 
     .resize-social{
 
@@ -1027,7 +1027,7 @@ ul.external li a:hover {
         margin: 0 40px;
     }
 }
-@media only screen and (max-width:650px){
+@media only screen and (max-width:670px){
 
     .resize-social{
 
