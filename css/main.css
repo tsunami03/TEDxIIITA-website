@@ -950,7 +950,12 @@ ul.external li a:hover {
     color: #fff;
 }
 
-
+#registerform{
+    width: 50%;
+    height: 100vh;
+    background-color: #f6f6f6;
+    align: center;
+}
 /*=================================================================
 	Price
 ==================================================================*/
@@ -967,7 +972,6 @@ ul.external li a:hover {
 
 .social-button {
     margin: 0;
-    padding: 0;
     list-style: none;
     text-align: center;
 }
@@ -976,7 +980,12 @@ ul.external li a:hover {
     display: inline-block;
 }
 
+
 .social-button li:nth-child(2) {
+    margin: 0 75px;
+}
+
+.social-button li:nth-child(4) {
     margin: 0 75px;
 }
 
