@@ -696,7 +696,7 @@ h1.navbar-brand {
 
 figcaption.mask {
     background-color: rgba(54, 55, 50, 0.79);
-    bottom: -100% !important;
+    bottom: -200px;
     color: #fff;
     padding: 25px;
     position: absolute;
