@@ -5,6 +5,11 @@
 jQuery(window).load(setTimeout(function (){
     $("#loadin").css("display","none");
     $("#loading").css("display","none");
+    $('html, body').css({
+        overflow: 'auto',
+        height: 'auto'
+    });
+    
 },3000));
 
 /* ========================================================================= */

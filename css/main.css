@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
 
+body{
+    overflow: hidden;
+    height: 100%;
+}
+
 #loading{
     position: absolute;
     z-index: 1050;
@@ -170,10 +175,10 @@ main > section {
     border-bottom: 1px solid rgb(230,43,30);
     content: "";
     display: block;
-    left: 45%;
+    left: 35% !important;
     bottom: 0;
     position: absolute;
-    width: 115px;
+    width: 30%;
 }
 
 .sec-title.white h2:after {
@@ -691,7 +696,7 @@ h1.navbar-brand {
 
 figcaption.mask {
     background-color: rgba(54, 55, 50, 0.79);
-    bottom: -126px;
+    bottom: -200px;
     color: #fff;
     padding: 25px;
     position: absolute;
@@ -979,6 +984,7 @@ ul.external li a:hover {
 
 .social-button li {
     display: inline-block;
+    margin: 2% auto;
 }
 
 
@@ -1013,8 +1019,8 @@ ul.external li a:hover {
 @media only screen and (max-width:800px){
 
     .resize-social{
-
         font-size: 3rem;
+        margin: 10px auto;
     }
     .social-button li a{
         height: 60px;
@@ -1250,7 +1256,7 @@ textarea.form-control {
 
 /* portfolio */
     figcaption.mask {
-        bottom: -151px;
+        bottom: -200px;
     }
 
     .testimonial-item > div:after {
@@ -1403,7 +1409,7 @@ textarea.form-control {
     }
 
     figcaption.mask {
-        bottom: -107px;
+        bottom: -200px;
         color: #fff;
         padding: 15px;
     }
@@ -1505,7 +1511,7 @@ textarea.form-control {
     }
 
     figcaption.mask {
-        bottom: -132px;
+        bottom: -200px;
     }
 
 /* testimonial */
