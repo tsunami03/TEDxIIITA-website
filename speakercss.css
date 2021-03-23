@@ -86,9 +86,16 @@ body {
 .speaker-name{
     font-weight: 600;
 }
+.speaker-desc-container{
+    display: flex;
+    flex-direction: column;
+}
+.speaker-desc{
+    margin-bottom: 20px;
+}
 .speaker-social{
     display: flex;
-    margin-top:20px;
+    margin-top:auto;
     justify-content: space-around;
 }
 .social-icon{
