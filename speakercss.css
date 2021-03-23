@@ -89,6 +89,7 @@ body {
 .speaker-desc-container{
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 .speaker-desc{
     margin-bottom: 20px;
