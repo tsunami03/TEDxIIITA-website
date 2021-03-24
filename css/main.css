@@ -1567,6 +1567,38 @@ textarea.form-control {
     padding-right: auto;
 }
 
-.rednav .navbar-inverse .navbar-nav > li > a x
+.rednav .navbar-inverse .navbar-nav > li > a {
 color:red;
+}
+
+                                                        /* 2020.css */
+
+
+.reg-link{
+    color:red;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.overlay-style{
+	background-color: rgba(23,23,23,0.5);
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.but-stl{
+	background-color: rgba(69,69,69,0.6);
+	border-radius: 40px;
+}
+
+.abouttt{
+	/*margin-bottom: -65px;*/
+}
+
+.spon-link{
+	color: rgb(230,43,30);
+}
+.spon-link:hover{
+	color: rgb(200,10,10);
+	/*background-color: rgba(69,69,69,0.5);*/
+	text-decoration: underline;
 }
