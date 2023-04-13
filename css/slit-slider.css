@@ -163,7 +163,7 @@
 }
 
 .bg-img-1 {
-	background-image: url(../img/1.jpg);
+	background-image: url(../img/TEDx23/hero1.png);
 	height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -213,7 +213,7 @@
 	-ms-animation: fadeOut 1s ease-in-out both;
 	animation: fadeOut 1s ease-in-out both;
 }
-.sl-trans-back-elems .caption-content span,,
+.sl-trans-back-elems .caption-content span,
 .sl-trans-back-elems .caption-content a {
 	-webkit-animation: fadeOut 1s linear both;
 	-moz-animation: fadeOut 1s linear both;

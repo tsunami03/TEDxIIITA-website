@@ -967,7 +967,7 @@ ul.external li a:hover {
 ==================================================================*/
 
 #social {
-    background-image: url(../img/slider/banner.jpg);
+    background-image: url(../img/aboutback.jpg);
     padding: 0;
 }
 
@@ -1601,4 +1601,287 @@ color:red;
 	color: rgb(200,10,10);
 	/*background-color: rgba(69,69,69,0.5);*/
 	text-decoration: underline;
+}
+
+#about2{
+    background-image: url("/img/TEDx23/about_bg2.png");
+    background-size: cover;
+}
+
+#about{
+    display: none;
+}
+
+#about2{
+    padding: 5rem;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+
+.about-first{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.about-first .heading{
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.about-first .heading span{
+    margin-top: 10rem;
+    font-weight: 800;
+}
+
+.about-first .desc{
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+    width: 70%;
+    line-height: 150%;
+}
+
+.about-second{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+
+.about-second .heading{
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.about-second .heading span{
+    font-weight: 800;
+}
+
+.about-second .desc #works p{
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    line-height: 150%;
+    margin-bottom: 2rem;
+}
+
+
+.card_right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.card_right .texts{
+    display: flex;
+    margin-right: 2rem;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+}
+
+.card_right .texts .name{
+    font-size: 7rem;
+    color: #E62B1E;
+    font-weight: 800;
+    line-height: 110%;
+}
+
+.card_right .texts .short_desc{
+    font-size: 3rem;
+    color: black;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.picture .speaker_pic{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .card_right .texts .name{
+    font-size: 5rem;
+    color: #E62B1E;
+    font-weight: 800;
+    line-height: 110%;
+}
+.card_right .texts .short_desc{
+    font-size: 2rem;
+    color: black;
+    font-weight: 400;
+    line-height: 110%;
+}
+}
+
+#card_left .texts{
+margin-right: 0rem;
+margin-left: 2rem;
+}
+
+@media screen and (max-width: 650px) {
+  .card_right .texts .name{
+    font-size: 3rem;
+    color: #E62B1E;
+    font-weight: 800;
+    line-height: 110%;
+}
+.card_right .texts .short_desc{
+    font-size: 1rem;
+    color: black;
+    font-weight: 400;
+    line-height: 110%;
+}
+.card_right{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+}
+
+@media screen and (max-width: 700px) {
+.about-first .heading{
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+    line-height: 110%;
+}
+
+.about-first .heading span{
+    margin-top: 10rem;
+    font-weight: 800;
+}
+
+.about-first .desc{
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+    width: 100%;
+    line-height: 150%;
+}
+
+.about-second{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+
+.about-second .heading{
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+    line-height: 110%;
+}
+
+.about-second .heading span{
+    font-weight: 800;
+}
+
+.about-second .desc #works p{
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    line-height: 150%;
+    margin-bottom: 2rem;
+}
+
+
+}
+
+@media screen and (max-width: 500px) {
+.about-first .heading{
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+    line-height: 110%;
+}
+
+.about-first .heading span{
+    margin-top: 10rem;
+    font-weight: 800;
+}
+
+.about-first .desc{
+    margin-top: 5rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    width: 100%;
+    line-height: 150%;
+}
+
+.about-second{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+
+.about-second .heading{
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+    line-height: 110%;
+}
+
+.about-second .heading span{
+    font-weight: 800;
+}
+
+.about-second .desc #works p{
+    margin-top: 5rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    line-height: 150%;
+    margin-bottom: 2rem;
+}
+}
+
+#fix{
+    min-width: 15rem;
+}
+
+#vasudevan{
+    padding-right: 2rem;
+}
+#card_left .texts{
+margin-right: 0rem;
+margin-left: 2rem;
+}
+
+.speaks{
+    margin-top: 5rem;
+}
+
+#details{
+    margin-bottom: 40rem;
+}
+
+#details #date{
+    font-size: 7rem;
+    font-weight: 800;
+margin-bottom: 1rem;
+line-height: 110%;
+}
+
+#details #venue{
+    font-size: 2rem;
+    font-weight: 600;
 }

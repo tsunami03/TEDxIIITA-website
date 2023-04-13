@@ -835,7 +835,7 @@ ul.external li a:hover {
 ==================================================================*/
 
 #social {
-    background-image: url(../img/slider/banner.jpg);
+    background-image: url(../img/aboutback.jpg);
     padding: 0;
 }
 
@@ -1387,7 +1387,10 @@ textarea.form-control {
     size:5%;
 }
 
+
+
 /*.reg-link{
     color:red;
     background-color: rgba(0,0,0,0.3);
 }*/
+
